@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.main h1{
+  margin-bottom: 0;
+}
+
 .title a {
   color: #f213a4;
   text-decoration: none;
@@ -116,4 +120,58 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.donate {
+  background-color: white;
+  width: 90%;
+  display: flex;
+  padding: 1em 2em;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302),0 3px 6px 2px rgba(60,64,67,0.149);
+  position: relative;
+}
+
+.donate .btn {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.donate img {
+  border-radius: 4px;
+}
+
+.donate h1 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+}
+
+.donate button {
+  padding: 1em 3em;
+  background-color: #0ea5e9;
+  border: white;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.donate button:hover {
+
+}
+
+.donate input {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.target {
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
